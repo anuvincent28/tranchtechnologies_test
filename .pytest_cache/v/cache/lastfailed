@@ -1,7 +1,4 @@
 {
-  "tests/test_technologies.py::test_socialmedia": true,
-  "tests/test_technologies.py::test_madoptions": true,
-  "tests/test_verticals.py::test_trading": true,
-  "tests/test_verticals.py::test_rae": true,
-  "tests/test_verticals.py::test_hc": true
+  "tests/test_verticals.py::test_trading[chromium]": true,
+  "tests/test_contactus.py::test_contacts": true
 }

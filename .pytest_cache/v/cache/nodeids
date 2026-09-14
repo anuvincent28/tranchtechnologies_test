@@ -1,11 +1,11 @@
 [
-  "tests/test_technologies.py::test_aioptions",
-  "tests/test_technologies.py::test_ecoptions",
-  "tests/test_technologies.py::test_madoptions",
-  "tests/test_technologies.py::test_socialmedia",
-  "tests/test_verticals.py::test_ca",
-  "tests/test_verticals.py::test_ft",
-  "tests/test_verticals.py::test_hc",
-  "tests/test_verticals.py::test_rae",
-  "tests/test_verticals.py::test_trading"
+  "tests/test_blog.py::test_blog",
+  "tests/test_contactus.py::test_contacts",
+  "tests/test_technology.py::test_technology",
+  "tests/test_verticals.py::test_customs",
+  "tests/test_verticals.py::test_fintech_options",
+  "tests/test_verticals.py::test_healthcare",
+  "tests/test_verticals.py::test_retails",
+  "tests/test_verticals.py::test_trading",
+  "tests/test_verticals.py::test_trading[chromium]"
 ]

@@ -1,28 +1,27 @@
 
+
 import pytest
-from pages.verticals import cls_Verti
 
-@pytest.mark.smoke
-def test_trading(page):
-    trade = cls_Verti(page)
-    trade.click_trading_options()
+from pages.verticals import vertical
 
+@pytest.mark.smoke              #markers 
+def test_trading(page):  #Methods
+    varticals=vertical(page)
+    varticals.trading_options()
+@pytest.mark.smoke   
+def test_retails(page):
+    varticals=vertical(page)
+    varticals.retails_options()
 @pytest.mark.smoke
-def test_rae(page):
-    rae = cls_Verti(page)
-    rae.click_rae_options()
-
+def test_healthcare(page):
+    varticals=vertical(page)
+    varticals.healthcare_options()
 @pytest.mark.smoke
-def test_hc(page):
-    hc = cls_Verti(page)
-    hc.click_hc_options()
-
+def test_fintech_options(page):
+    varticals=vertical(page)
+    varticals.fintech_options()
 @pytest.mark.smoke
-def test_ft(page):
-    ft = cls_Verti(page)
-    ft.click_ft_options()
-
-@pytest.mark.smoke
-def test_ca(page):
-    ca = cls_Verti(page)
-    ca.click_ca_options()
+def test_customs(page):
+    varticals=vertical(page)
+    varticals.customs_options()
+    
